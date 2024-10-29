@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ajoutVisite</class>
+ <widget class="QDialog" name="ajoutVisite">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>436</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>436</width>
+    <height>420</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>436</width>
+    <height>420</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+color:#6b6b6b;
+border:none;
+border-radius:10px;</string>
+  </property>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>411</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>411</width>
+     <height>318</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Nom du visiteur :</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox">
+      <property name="styleSheet">
+       <string notr="true">border-top:none;
+                  border-left:none;
+                  border-right:none;
+                  border-bottom:1.5px solid #00a086;
+                  margin-bottom:15px;
+                  padding-bottom:5px;
+                  min-height:24px;
+border-radius:0;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Nom du site:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="styleSheet">
+       <string notr="true">border-top:none;
+                  border-left:none;
+                  border-right:none;
+                  border-bottom:1.5px solid #00a086;
+                  margin-bottom:15px;
+                  padding-bottom:5px;
+                  min-height:24px;
+border-radius:0;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Nombre de jours:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="nbjrEdit">
+      <property name="styleSheet">
+       <string notr="true">border-top:none;
+                  border-left:none;
+                  border-right:none;
+                  border-bottom:1.5px solid #00a086;
+                  margin-bottom:15px;
+                  padding-bottom:5px;
+                  min-height:24px;
+border-radius:0;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="msgNbj">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Date de visite : </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="dateVisiteEdit">
+      <property name="styleSheet">
+       <string notr="true">border-top:none;
+                  border-left:none;
+                  border-right:none;
+                  border-bottom:1.5px solid #00a086;
+                  margin-bottom:15px;
+                  padding-bottom:5px;
+                  min-height:24px;
+border-radius:0;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="msgDate">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>0</y>
+     <width>231</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Ajouter une nouvelle visite&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Reset">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>370</y>
+     <width>122</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reiniatialser les champs</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirmAddvisiteBtn">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>370</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#00A086;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Ajouter</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

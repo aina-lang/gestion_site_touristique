@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>updateSiteBox</class>
+ <widget class="QDialog" name="updateSiteBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>466</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>466</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>466</width>
+    <height>412</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+color:#6b6b6b;
+border:none;
+border-radius:10px;</string>
+  </property>
+  <widget class="QPushButton" name="confirmAddSiteBtn">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>370</y>
+     <width>87</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#00A086;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Ajouter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Reset">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>370</y>
+     <width>181</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reiniatialser les champs</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>59</y>
+     <width>411</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Nom du site :</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="nomSiteEdit">
+      <property name="styleSheet">
+       <string notr="true">border-top:none;
+                  border-left:none;
+                  border-right:none;
+                  border-bottom:1.5px solid #00a086;
+                  margin-bottom:15px;
+                  padding-bottom:5px;
+                  min-height:24px;
+border-radius:0;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="messageNom">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Lieu du site :</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lieuSiteEdit">
+      <property name="styleSheet">
+       <string notr="true">border-top:none;
+                  border-left:none;
+                  border-right:none;
+                  border-bottom:1.5px solid #00a086;
+                  margin-bottom:15px;
+                  padding-bottom:5px;
+                  min-height:24px;
+border-radius:0;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="messageLieu">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Tarif journalier :</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="tarifSiteEdit">
+      <property name="styleSheet">
+       <string notr="true">border-top:none;
+                  border-left:none;
+                  border-right:none;
+                  border-bottom:1.5px solid #00a086;
+                  margin-bottom:15px;
+                  padding-bottom:5px;
+                  min-height:24px;
+border-radius:0;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="messagetarif">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>411</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>231</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modifier une site touristiques</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
